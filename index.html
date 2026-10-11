@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio of Suhaila Khan, a marketing and communications associate in Singapore: campaigns, social media, e-commerce and paid media for 42 Singapore, The Bubbly Gem and Alby.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Suhaila Khan, marketing and communications">
+<meta property="og:description" content="Portfolio of Suhaila Khan, a marketing and communications associate in Singapore: campaigns, social media, e-commerce and paid media for 42 Singapore, The Bubbly Gem and Alby.">
+<meta property="og:url" content="https://suhailakhan39-svg.github.io/">
+<meta property="og:image" content="https://suhailakhan39-svg.github.io/images/bubbly-gem-feed-grid.jpg">
+<meta name="theme-color" content="#F1F5F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1B1C" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2312292A'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='%23F47FB1'%3ESK%3C/text%3E%3C/svg%3E">
+<title>Suhaila Khan Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:wght@400..600&display=swap">
+<style>
+/* Layout: a contact sheet. Work appears in its native formats (9:16 story rails you swipe,
+   square and 4:5 feed tiles) on quiet cool paper, with the writing in a narrow column beside or above it. */
+:root {
+  --paper: #F1F5F2;
+  --frame: #E2E9E5;
+  --ink: #12292A;
+  --muted: #516868;
+  --line: #C9D6D2;
+  --teal: #2F6A70;
+  --fuchsia: #AE1B60;
+  --scrim: rgba(8, 18, 19, 0.9);
+  --on-scrim: #F1F5F2;
+  --scrim-ink: #12292A;
+
+  --display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --body: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+
+  --step-label: 0.8125rem;
+  --step-small: 0.9375rem;
+  --step-body: 1.0625rem;
+  --step-lead: clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
+  --step-h4: 1.25rem;
+  --step-h3: clamp(2rem, 3.6vw + 0.8rem, 3.4rem);
+  --step-h2: clamp(1.1rem, 0.5vw + 1rem, 1.3rem);
+  --step-h1: clamp(2.3rem, 5.2vw + 0.6rem, 4.9rem);
+  --step-stat: clamp(3.6rem, 8vw + 1rem, 6.5rem);
+
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --gap: clamp(0.5rem, 1vw, 0.875rem);
+  --measure: 62ch;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1B1C;
+    --frame: #182A2B;
+    --ink: #E7EFEB;
+    --muted: #9BB0AD;
+    --line: #29403F;
+    --teal: #8FBDC0;
+    --fuchsia: #F47FB1;
+    --scrim: rgba(4, 10, 11, 0.92);
+    --on-scrim: #E7EFEB;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1B1C;
+  --frame: #182A2B;
+  --ink: #E7EFEB;
+  --muted: #9BB0AD;
+  --line: #29403F;
+  --teal: #8FBDC0;
+  --fuchsia: #F47FB1;
+  --scrim: rgba(4, 10, 11, 0.92);
+  --on-scrim: #E7EFEB;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: var(--step-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration-color: var(--fuchsia); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+a:hover { color: var(--fuchsia); }
+:focus-visible { outline: 2px solid var(--fuchsia); outline-offset: 3px; border-radius: 2px; }
+h1, h2, h3, h4, p, ul, ol, dl, dd, figure { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+.wrap { max-width: 76rem; margin-inline: auto; padding-inline: var(--gutter); }
+
+/* Header */
+.top {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.top .wrap { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.25rem 1.5rem; padding-block: 0.8rem; }
+.wordmark { font-family: var(--display); font-size: 1.3rem; font-weight: 400; letter-spacing: -0.01em; text-decoration: none; }
+.wordmark em { color: var(--fuchsia); font-weight: 300; }
+.top nav ul { display: flex; flex-wrap: wrap; gap: 0.25rem 1.4rem; }
+.top nav a { font-size: var(--step-small); text-decoration: none; color: var(--muted); }
+.top nav a:hover { color: var(--fuchsia); }
+
+/* Labels */
+.label { font-size: var(--step-label); font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--teal); }
+
+/* Hero */
+.hero { padding-block: clamp(2.5rem, 7vw, 5.5rem) clamp(2rem, 5vw, 4rem); }
+.hero .wrap { display: grid; gap: clamp(1.25rem, 3vw, 2rem); }
+.hero h1 { font-family: var(--display); font-weight: 300; font-size: var(--step-h1); line-height: 1.04; letter-spacing: -0.025em; max-width: 19ch; }
+.hero h1 em { color: var(--fuchsia); font-weight: 300; }
+.hero .lead { font-size: var(--step-lead); line-height: 1.5; max-width: 54ch; color: var(--muted); }
+.hero .lead strong { color: var(--ink); font-weight: 600; }
+
+/* Image buttons */
+.shot {
+  display: block; width: 100%; padding: 0; border: 0; margin: 0;
+  background: var(--frame); border-radius: 4px; overflow: hidden; cursor: zoom-in;
+  font: inherit; color: inherit;
+}
+.shot img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; }
+.shot:hover img { transform: scale(1.025); }
+.r-story { aspect-ratio: 9 / 16; }
+.r-feed { aspect-ratio: 4 / 5; }
+.r-square { aspect-ratio: 1 / 1; }
+.r-free img { height: auto; }
+.shot.bordered { border: 1px solid var(--line); }
+
+/* Rails: one row on wide screens, a swipeable strip on narrow ones */
+.rail { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: var(--gap); align-items: start; }
+.hero-rail > :nth-child(even) { margin-top: clamp(0.75rem, 2.2vw, 2rem); }
+@media (max-width: 54rem) {
+  .rail {
+    grid-auto-columns: min(42%, 11.5rem);
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+    scroll-padding-inline: var(--gutter);
+    padding-bottom: 0.75rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .rail > * { scroll-snap-align: start; }
+  .rail.wide { grid-auto-columns: min(70%, 17rem); }
+}
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); align-items: start; }
+
+/* Sections */
+.section-head { display: flex; align-items: baseline; gap: 1rem; padding-block: 0.9rem; border-top: 1px solid var(--ink); }
+.section-head h2 { font-family: var(--body); font-size: var(--step-h2); font-weight: 600; letter-spacing: -0.005em; }
+.section-head p { color: var(--muted); font-size: var(--step-small); }
+
+.case { padding-block: clamp(2rem, 5vw, 4rem) clamp(3rem, 8vw, 6.5rem); display: grid; gap: clamp(2.25rem, 5vw, 4.25rem); }
+.case + .case { border-top: 1px solid var(--line); }
+.case-head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.25rem clamp(1.5rem, 5vw, 5rem); align-items: start; }
+.case-head h3 { font-family: var(--display); font-weight: 300; font-size: var(--step-h3); line-height: 1.02; letter-spacing: -0.02em; margin-top: 0.5rem; }
+.case-head .role { margin-top: 0.9rem; color: var(--muted); font-size: var(--step-small); line-height: 1.45; }
+.case-head .intro { max-width: var(--measure); min-width: 0; padding-top: 0.35rem; }
+.case-head .intro p + p { margin-top: 0.9em; }
+
+.block { display: grid; gap: clamp(1rem, 2vw, 1.5rem); }
+.block-text { display: grid; gap: 0.6rem; max-width: var(--measure); min-width: 0; }
+.block-text h4 { font-family: var(--display); font-weight: 400; font-size: 1.6rem; line-height: 1.15; letter-spacing: -0.01em; }
+.block-text .note { font-size: var(--step-small); color: var(--muted); }
+.split { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.5rem clamp(1.5rem, 5vw, 5rem); align-items: start; }
+.split > * { min-width: 0; }
+figure figcaption { margin-top: 0.5rem; font-size: var(--step-label); color: var(--muted); }
+.stack { display: grid; gap: clamp(1rem, 2vw, 1.5rem); }
+
+/* What I do at 42 Singapore */
+.duties { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem) clamp(1.5rem, 4vw, 3.5rem); }
+.duties li { border-top: 1px solid var(--line); padding-top: 1rem; display: grid; gap: 0.4rem; align-content: start; min-width: 0; }
+.duties h4 { font-family: var(--display); font-weight: 400; font-size: var(--step-h4); line-height: 1.2; }
+.duties p { font-size: var(--step-small); color: var(--muted); line-height: 1.55; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem 0.5rem; align-items: center; }
+.chips li { font-size: var(--step-label); font-weight: 500; padding: 0.3rem 0.7rem; border: 1px solid var(--line); border-radius: 999px; }
+.chips .label { border: 0; padding-inline: 0 0.4rem; }
+
+/* Results */
+.stats { display: flex; flex-wrap: wrap; gap: 1.25rem clamp(2rem, 6vw, 5rem); }
+.stat { display: grid; gap: 0.35rem; max-width: 17rem; }
+.stat b { font-family: var(--display); font-weight: 300; font-size: var(--step-stat); line-height: 0.9; letter-spacing: -0.04em; color: var(--fuchsia); font-variant-numeric: lining-nums; }
+.stat span { font-size: var(--step-small); line-height: 1.4; }
+
+/* School projects */
+.projects { display: grid; gap: clamp(2.5rem, 6vw, 4.5rem); }
+.project { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.5rem clamp(1.5rem, 5vw, 5rem); align-items: start; }
+.project > * { min-width: 0; }
+.project .block-text { align-content: start; }
+.more { font-weight: 600; font-size: var(--step-small); }
+.more::after { content: " \2197"; color: var(--fuchsia); }
+.project-media { display: grid; gap: var(--gap); align-items: start; }
+.pm-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pm-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* Experience, education, tools */
+.cv { padding-block: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 8vw, 6rem); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem clamp(1.5rem, 4vw, 3.5rem); }
+.cv > div { display: grid; gap: 1.1rem; align-content: start; min-width: 0; }
+.cv h3 { font-family: var(--display); font-weight: 400; font-size: 1.6rem; letter-spacing: -0.01em; }
+.cv-list { display: grid; gap: 1.4rem; }
+.cv-list li { display: grid; gap: 0.2rem; border-top: 1px solid var(--line); padding-top: 0.9rem; }
+.cv-list .when { font-size: var(--step-label); color: var(--teal); font-weight: 600; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+.cv-list strong { font-weight: 600; line-height: 1.35; }
+.cv-list span { color: var(--muted); font-size: var(--step-small); line-height: 1.5; }
+.tools { display: flex; flex-wrap: wrap; gap: 0.45rem 0.5rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.tools li { font-size: var(--step-small); padding: 0.3rem 0.75rem; border: 1px solid var(--line); border-radius: 999px; }
+
+/* About and contact */
+.about { padding-block: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 8vw, 6rem); }
+.about .bio p { font-family: var(--display); font-weight: 300; font-size: clamp(1.4rem, 1.6vw + 1rem, 2.2rem); line-height: 1.3; letter-spacing: -0.012em; max-width: 34ch; }
+.about .bio p + p { margin-top: 1em; }
+.about .cols { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.5rem clamp(1.5rem, 5vw, 5rem); }
+.about .cols > div { min-width: 0; }
+
+.contact { border-top: 1px solid var(--ink); padding-block: clamp(2.5rem, 7vw, 5rem) clamp(2rem, 5vw, 3rem); }
+.contact .wrap { display: grid; gap: 1.5rem; }
+.contact h2 { font-family: var(--display); font-weight: 300; font-size: var(--step-h3); line-height: 1.05; letter-spacing: -0.02em; max-width: 18ch; }
+.contact h2 em { color: var(--fuchsia); }
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.email { font-family: var(--display); font-size: clamp(1.2rem, 2.4vw + 0.6rem, 2rem); font-weight: 400; overflow-wrap: anywhere; user-select: all; }
+.copy { font: inherit; font-size: var(--step-small); font-weight: 600; color: var(--paper); background: var(--ink); border: 0; border-radius: 999px; padding: 0.55rem 1.1rem; cursor: pointer; }
+.copy:hover { background: var(--fuchsia); }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; padding-top: clamp(2rem, 5vw, 3.5rem); font-size: var(--step-label); color: var(--muted); }
+
+/* Lightbox */
+.lightbox { border: 0; padding: 0; margin: 0; background: transparent; color: var(--on-scrim); width: 100vw; height: 100vh; max-width: none; max-height: none; }
+.lightbox::backdrop { background: var(--scrim); }
+.lightbox[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; background: var(--scrim); }
+.lb-bar { display: flex; justify-content: flex-end; gap: 0.5rem; padding: 0.75rem var(--gutter); }
+.lb-btn { font: inherit; font-size: var(--step-small); font-weight: 600; color: var(--on-scrim); background: transparent; border: 1px solid var(--on-scrim); border-radius: 999px; padding: 0.4rem 0.95rem; cursor: pointer; }
+.lb-btn:hover { background: var(--on-scrim); color: var(--scrim-ink); }
+.lb-stage { display: grid; place-items: center; min-height: 0; padding-inline: var(--gutter); }
+.lb-stage img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; border-radius: 4px; }
+.lb-cap { padding: 0.9rem var(--gutter) 1.25rem; text-align: center; font-size: var(--step-small); max-width: 60ch; margin-inline: auto; }
+
+@media (max-width: 54rem) {
+  .case-head, .split, .project, .about .cols { grid-template-columns: minmax(0, 1fr); }
+  .duties { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cv { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 34rem) {
+  .duties { grid-template-columns: minmax(0, 1fr); }
+  .top nav ul { gap: 0.25rem 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .shot img { transition: none; }
+  .shot:hover img { transform: none; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="wordmark" href="#top">Suhaila <em>Khan</em></a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="label">Marketing and communications · Singapore</p>
+      <h1>I plan, make and measure campaigns that turn attention into <em>applications</em> and <em>sales</em>.</h1>
+      <p class="lead"><strong>Marketing lead for 42 Singapore</strong> at the Singapore University of Technology and Design. Before that, social media and e-commerce for the fashion labels The Bubbly Gem and Alby.</p>
+    </div>
+    <div class="wrap" style="margin-top: clamp(2rem, 5vw, 3.5rem)">
+      <div class="rail hero-rail" aria-label="A selection of social media work">
+        <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-pink-dream.jpg" width="450" height="800" alt="The Bubbly Gem Instagram Story: a collage of pink floral dresses with a link sticker reading Pink Dream"></button>
+        <button class="shot r-story" type="button"><img src="images/alby-story-we-are-open.jpg" width="450" height="800" alt="Alby Instagram Story for Laloolalang: hand-lettered We Are Open on an orange gradient, Saturday and Sunday, 1 PM to 10 PM"></button>
+        <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-sale.jpg" width="450" height="800" alt="The Bubbly Gem Instagram Story: Sale, with a slider sticker asking Are you gems excited for the sale tonight"></button>
+        <button class="shot r-story" type="button"><img src="images/alby-story-come-down.jpg" width="450" height="800" alt="Alby Instagram Story: Come down to our booth, 29 November to 1 December 2024, Orchard Road"></button>
+        <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-poll.jpg" width="450" height="800" alt="The Bubbly Gem Instagram Story with a poll: What colours do you feel the most confident in?"></button>
+        <button class="shot r-story" type="button"><img src="images/alby-story-follow-snap-tag.jpg" width="450" height="800" alt="Alby Instagram Story styled as a newspaper front page: Follow, snap and tag us for a discount at the booth"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="work-h">Selected work</h2>
+        <p>2022 to now</p>
+      </div>
+
+      <!-- 42 SINGAPORE -->
+      <article class="case" id="42-singapore">
+        <header class="case-head">
+          <div>
+            <p class="label">April 2025 to present</p>
+            <h3>42 Singapore</h3>
+            <p class="role">Marketing Lead, 42 Singapore<br>Marketing and Communications Associate, Singapore University of Technology and Design</p>
+          </div>
+          <div class="intro">
+            <p>42 Singapore is a tuition-free coding school where learners teach each other. My job is to make sure the right people hear about it, come to an event and apply.</p>
+          </div>
+        </header>
+
+        <ul class="duties">
+          <li>
+            <h4>Campaigns</h4>
+            <p>I lead the marketing campaigns that drive awareness and applications, across the school's digital channels, paid media and promotions.</p>
+          </li>
+          <li>
+            <h4>Paid media and performance</h4>
+            <p>I manage paid media across Meta, Google, LinkedIn and TikTok, and use campaign results to improve lead generation, engagement and event registrations.</p>
+          </li>
+          <li>
+            <h4>Recruitment events</h4>
+            <p>I plan and promote Open Houses and Discovery Piscines, from the marketing assets and outreach plan to coordinating the teams involved.</p>
+          </li>
+          <li>
+            <h4>Education partnerships</h4>
+            <p>I build and manage partnerships with polytechnics, Institutes of Technical Education and junior colleges to reach more prospective students.</p>
+          </li>
+          <li>
+            <h4>Vendors and agencies</h4>
+            <p>I oversee external vendors and agencies for media buying, campaign execution and creative production, keeping the work within budget and on target.</p>
+          </li>
+          <li>
+            <h4>Content and communications</h4>
+            <p>I write and produce content for social media, email and the web to keep the school visible and bring in prospective students.</p>
+          </li>
+        </ul>
+
+        <ul class="chips" aria-label="Channels">
+          <li class="label">Channels</li>
+          <li>Meta</li>
+          <li>Google</li>
+          <li>LinkedIn</li>
+          <li>TikTok</li>
+          <li>Email</li>
+          <li>Events</li>
+          <li>School partnerships</li>
+        </ul>
+      </article>
+
+      <!-- THE BUBBLY GEM -->
+      <article class="case" id="the-bubbly-gem">
+        <header class="case-head">
+          <div>
+            <p class="label">October to December 2024</p>
+            <h3>The Bubbly Gem</h3>
+            <p class="role">Junior Marketing Associate (Intern)</p>
+          </div>
+          <div class="intro">
+            <p>The Bubbly Gem is a fast-fashion label with a new product launch every week. Working directly with the founder in a small team, I planned, designed and ran launch campaigns, made the daily content for Instagram and TikTok, shot and edited product images, and kept the online store up to date.</p>
+            <p>Each week I reported on performance using Meta Business Suite, Shopify and TikTok analytics, and those reports shaped what we did next.</p>
+          </div>
+        </header>
+
+        <div class="block">
+          <div class="block split">
+            <div class="block-text">
+              <p class="label">Campaign</p>
+              <h4>Go Green</h4>
+              <p>I proposed Go Green to strengthen the brand's image and meet growing demand for eco-friendly products. The campaign introduced The Bubbly Gem's new recyclable bag and showed customers simple ways to cut plastic and paper waste, such as returning garment bags for reuse and choosing an e-receipt.</p>
+            </div>
+            <div class="stats">
+              <p class="stat"><b>12%</b><span>increase in social media engagement in the first month</span></p>
+              <p class="stat"><b>7%</b><span>growth in sales of the new recyclable bag in the first month</span></p>
+            </div>
+          </div>
+          <div class="rail wide">
+            <button class="shot r-feed bordered" type="button"><img src="images/go-green-reduce-reuse-recycle.jpg" width="576" height="720" loading="lazy" alt="Go Green post: Reduce, Reuse, Recycle. Look good, feel good, do good."></button>
+            <button class="shot r-feed bordered" type="button"><img src="images/go-green-no-plastic.jpg" width="576" height="720" loading="lazy" alt="Go Green post: No to Plastic, announcing reusable bags in store from 8 November"></button>
+            <button class="shot r-feed bordered" type="button"><img src="images/go-green-how-to-reduce-waste.jpg" width="576" height="720" loading="lazy" alt="Go Green post: How to Reduce Waste with The Bubbly Gem, with three swaps for customers"></button>
+            <button class="shot r-feed bordered" type="button"><img src="images/go-green-doing-our-part.jpg" width="576" height="720" loading="lazy" alt="Go Green post: Doing Our Part, on upcycling fabrics and going paper-free"></button>
+          </div>
+        </div>
+
+        <div class="block split">
+          <div class="block-text">
+            <p class="label">Social media</p>
+            <h4>Instagram feed</h4>
+            <p>I kept the feed visually cohesive by working within the brand's colour palette and aesthetic. Engagement rates and customer feedback told me what the audience responded to, and I made more of it.</p>
+          </div>
+          <button class="shot r-free" type="button"><img src="images/bubbly-gem-feed-grid.jpg" width="763" height="773" loading="lazy" alt="The Bubbly Gem Instagram feed: nine posts mixing product photography, a Diwali greeting, an end of season sale and an event announcement"></button>
+        </div>
+
+        <div class="block">
+          <div class="block-text">
+            <p class="label">Social media</p>
+            <h4>Instagram and Facebook Stories</h4>
+            <p>I made Stories more engaging with polls, questions and links. These gave followers a reason to respond, which raised the brand's visibility and sent more traffic to the store.</p>
+          </div>
+          <div class="rail">
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-pink-dream.jpg" width="450" height="800" loading="lazy" alt="Story: a collage of pink floral dresses with a link sticker reading Pink Dream"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-sale.jpg" width="450" height="800" loading="lazy" alt="Story: Sale, with a slider sticker asking Are you gems excited for the sale tonight"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-poll.jpg" width="450" height="800" loading="lazy" alt="Story with a poll: What colours do you feel the most confident in?"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-arisa-countdown.jpg" width="360" height="640" loading="lazy" alt="Story: countdown sticker for the Arisa dress launch"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-arisa.jpg" width="360" height="640" loading="lazy" alt="Story: the Arisa dress with close-ups of its floral print"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-sale-collage.jpg" width="360" height="640" loading="lazy" alt="Story: Sale, up to 80% off, with an invitation to join the live stream"></button>
+            <button class="shot r-story" type="button"><img src="images/bubbly-gem-story-get-the-look.jpg" width="360" height="640" loading="lazy" alt="Story: Get the look, styling the Dotty dress with accessories"></button>
+          </div>
+        </div>
+
+        <div class="block split">
+          <div class="block-text">
+            <p class="label">E-commerce and reporting</p>
+            <h4>Shopify store</h4>
+            <p>I created the product listings (names, details, images, variations and pricing), organised products into collections such as New Arrivals so they were easier to find, and set up discount codes.</p>
+            <p>I tracked checkout conversion, cart abandonment and time on site to find where the store's design and layout could improve. I also reported top-performing products and colours to the research and development team to guide future launches.</p>
+            <h4 style="margin-top: 1rem">Meta Business Suite</h4>
+            <p>I scheduled each month's content in advance so posts went out in a planned, consistent order. Its analytics on reach, engagement and audience behaviour showed what customers responded to and shaped the following month's content.</p>
+          </div>
+          <div class="stack">
+            <figure>
+              <button class="shot r-free bordered" type="button"><img src="images/bubbly-gem-shopify-listing.jpg" width="800" height="403" loading="lazy" alt="Shopify admin showing a product listing for the Faye 2.0 Collection with description, details, colours and sizing"></button>
+              <figcaption>Product listing in Shopify</figcaption>
+            </figure>
+            <figure>
+              <button class="shot r-free bordered" type="button"><img src="images/bubbly-gem-shopify-analytics.jpg" width="1288" height="778" loading="lazy" alt="Shopify analytics dashboard with charts for sessions, conversion rate, total orders and average order value. The figures are hidden."></button>
+              <figcaption>Store analytics in Shopify. Figures are hidden.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <!-- ALBY -->
+      <article class="case" id="alby">
+        <header class="case-head">
+          <div>
+            <p class="label">October to December 2024</p>
+            <h3>Alby</h3>
+            <p class="role">Junior Marketing Associate (Intern), alongside The Bubbly Gem</p>
+          </div>
+          <div class="intro">
+            <p>Alby is The Bubbly Gem's sister brand, a new label still building awareness. The founder ran the feed to shape the brand's identity, and I contributed the event posters, videos and Stories for its pop-ups at Laloolalang, Sneakerlah, Night at Orchard and Sole Superior.</p>
+          </div>
+        </header>
+
+        <div class="block split">
+          <div class="block-text">
+            <p class="label">Instagram feed</p>
+            <h4>Event posters</h4>
+            <p>Alby's feed is monochrome, which makes announcements easy to miss. I added a pop of colour to each event title so followers could tell at a glance that a post was an announcement, and kept the details clear and concise.</p>
+          </div>
+          <div class="tiles">
+            <button class="shot r-free" type="button"><img src="images/alby-feed-sneakerlah.jpg" width="560" height="560" loading="lazy" alt="Alby feed post: Sneakerlah, 2 and 3 November, with a photo of two models inside a retro television frame"></button>
+            <button class="shot r-free" type="button"><img src="images/alby-feed-were-back.jpg" width="471" height="560" loading="lazy" alt="Alby feed post: We're Back, 19 to 20 October, at Laloolalang"></button>
+            <button class="shot r-free" type="button"><img src="images/alby-feed-night-at-orchard.jpg" width="450" height="560" loading="lazy" alt="Alby feed post: Night at Orchard, 29 November to 1 December 2024, with the title in green"></button>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="block-text">
+            <p class="label">Instagram and Facebook Stories</p>
+            <h4>Event coverage</h4>
+            <p>For each event, Stories ran through the week before and into the day after: countdowns, product availability, event details, booth setup, customer moments and thank-you posts.</p>
+          </div>
+          <div class="rail">
+            <button class="shot r-story" type="button"><img src="images/alby-story-five-more-days.jpg" width="450" height="800" loading="lazy" alt="Story: Five more days, a countdown to Sneakerlah"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-laloolalang.jpg" width="450" height="800" loading="lazy" alt="Story: Alby at Laloolalang, shown on a retro television, with a reminder to visit the booth this weekend"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-we-are-open.jpg" width="450" height="800" loading="lazy" alt="Story: We Are Open at Laloolalang, Saturday and Sunday, 1 PM to 10 PM"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-booth-lineup.jpg" width="450" height="800" loading="lazy" alt="Story: a clothing tag listing what to expect at Alby's pop-up booth"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-come-down.jpg" width="450" height="800" loading="lazy" alt="Story: Come down to our booth, 29 November to 1 December 2024, Orchard Road"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-follow-snap-tag.jpg" width="450" height="800" loading="lazy" alt="Story styled as a newspaper front page: Follow, snap and tag us for a discount at the booth"></button>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="block-text">
+            <p class="label">Instagram and Facebook Stories</p>
+            <h4>Products and brand story</h4>
+            <p>Alby's everyday Stories were mostly informative. They showed the model wearing each product with a detailed description, alongside the brand's mission, vision and backstory, to build awareness while the brand was still new.</p>
+          </div>
+          <div class="rail">
+            <button class="shot r-story" type="button"><img src="images/alby-story-lookbook.jpg" width="360" height="640" loading="lazy" alt="Story: a hand-annotated lookbook of Alby's graphic T-shirts and cargo pants"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-new.jpg" width="360" height="640" loading="lazy" alt="Story: New, a flat lay of items available at the Sneakerlah booth"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-cargo-pants.jpg" width="360" height="640" loading="lazy" alt="Story: product details for the premium cargo pants and the Alby logo T-shirt"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-sneakerlah.jpg" width="360" height="640" loading="lazy" alt="Story: Sneakerlah, with two models on a staircase"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-bowling-shirt.jpg" width="360" height="640" loading="lazy" alt="Story: product details for the textured bowling shirt, twill cargo pants and corduroy long sleeves"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-about-us.jpg" width="360" height="640" loading="lazy" alt="Story: About Us, introducing the Alby brand"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-black-friday.jpg" width="900" height="1600" loading="lazy" alt="Story: Black Friday sale is here"></button>
+            <button class="shot r-story" type="button"><img src="images/alby-story-sole-superior.jpg" width="360" height="640" loading="lazy" alt="Story styled as a newspaper: Alby at Sole Superior, 16 November 2024"></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- SCHOOL PROJECTS -->
+      <article class="case" id="school-projects">
+        <header class="case-head">
+          <div>
+            <p class="label">Student work</p>
+            <h3>School projects</h3>
+            <p class="role">Concept campaigns written for coursework. They were not commissioned by the brands.</p>
+          </div>
+          <div class="intro">
+            <p>Three projects where I did the research, built the strategy and designed the campaign assets myself. Each one links to the full report.</p>
+          </div>
+        </header>
+
+        <div class="projects">
+          <div class="project">
+            <div class="block-text">
+              <p class="label">Marketing plan</p>
+              <h4>Eighteen Chefs</h4>
+              <p>A marketing plan for the restaurant chain, built on market research, a situation analysis and a STOP and SIT strategy, with a full marketing mix and the digital assets to go with it.</p>
+              <p>The proposed campaign used social media, outdoor advertising, influencer partnerships and a collaboration with Golden Village cinemas.</p>
+              <p><a class="more" href="https://www.icloud.com/iclouddrive/0caNI1SfOkqRtA9omm6N7z0tg#Eighteen_chef_report" target="_blank" rel="noopener">Read the full report</a></p>
+            </div>
+            <div class="project-media pm-3">
+              <button class="shot r-free" type="button"><img src="images/eighteen-chefs-menu.jpg" width="396" height="396" loading="lazy" alt="Eighteen Chefs and Golden Village video post: A menu just for you"></button>
+              <button class="shot r-free" type="button"><img src="images/eighteen-chefs-coming-soon.jpg" width="480" height="640" loading="lazy" alt="Eighteen Chefs and Golden Village teaser post: Coming soon"></button>
+              <button class="shot r-free" type="button"><img src="images/eighteen-chefs-stories.jpg" width="450" height="800" loading="lazy" alt="Eighteen Chefs Story: a grid of dishes announcing a new menu at Golden Village"></button>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="block-text">
+              <p class="label">Campaign for the 2022 D&amp;AD New Blood Awards</p>
+              <h4>Netflix</h4>
+              <p>A response to Netflix's brief. Netflix UK and Netflix Korea collaborate to introduce foreign actors and languages to audiences in the United Kingdom, bridging the gap between viewers who prefer dubbing and viewers who prefer subtitles.</p>
+              <p>The campaign runs across partnership, social media and outdoor channels, with a detailed explanation of each tactic and control measures to track it.</p>
+              <p><a class="more" href="https://www.icloud.com/iclouddrive/0f3BtajXKQFbEoGbtmYTVCXhA#Netflix_Campaign" target="_blank" rel="noopener">Read the full report</a></p>
+            </div>
+            <div class="project-media pm-2">
+              <button class="shot r-free" type="button"><img src="images/netflix-movie-poster.jpg" width="565" height="800" loading="lazy" alt="Concept movie poster for Money Game, a fictional Netflix film with a cast from the United Kingdom and Korea"></button>
+              <button class="shot r-free" type="button"><img src="images/netflix-event-poster.jpg" width="720" height="720" loading="lazy" alt="Concept event poster: Movie with the stars, a Netflix screening event"></button>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="block-text">
+              <p class="label">New product development</p>
+              <h4>Dior</h4>
+              <p>A new product proposal with a launch marketing plan: L'Amour by Christian Dior, a luxury skincare line with calming natural fragrances, made with organic ingredients for all skin types.</p>
+              <p>The work covers a PESTEL (political, economic, social, technological, environmental and legal) analysis, microenvironment and competitor analysis, and strategies for product, pricing and promotion.</p>
+              <p><a class="more" href="https://www.icloud.com/iclouddrive/021yvLFbYHotmhD95TO7APIJQ#R&amp;D_for_Dior" target="_blank" rel="noopener">Read the full report</a></p>
+            </div>
+            <div class="project-media" style="max-width: 28rem">
+              <button class="shot r-free" type="button"><img src="images/dior-lamour.jpg" width="451" height="284" loading="lazy" alt="Concept product visual: a L'Amour by Christian Dior skincare bottle on a blue background"></button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" aria-labelledby="exp-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="exp-h">Experience and education</h2>
+      </div>
+      <div class="cv">
+        <div>
+          <h3>Experience</h3>
+          <ul class="cv-list">
+            <li>
+              <span class="when">April 2025 to present</span>
+              <strong>Marketing and Communications Associate</strong>
+              <span>Singapore University of Technology and Design. Marketing Lead for 42 Singapore.</span>
+            </li>
+            <li>
+              <span class="when">October to December 2024</span>
+              <strong>Junior Marketing Associate (Intern)</strong>
+              <span>The Bubbly Gem and its sister brand Alby.</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <ul class="cv-list">
+            <li>
+              <span class="when">July 2022 to February 2024</span>
+              <strong>Bachelor of Arts with Honours in Digital Marketing</strong>
+              <span>Coventry University. Modules included Designing Online Presence, Marketing Management, Consumer Behaviour, Digital Analytics, Social Media and Online Reputation, and Creative Advertising Development.</span>
+            </li>
+            <li>
+              <span class="when">April 2019 to April 2022</span>
+              <strong>Diploma in Food, Nutrition and Culinary Science</strong>
+              <span>Temasek Polytechnic.</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul class="tools">
+            <li>Meta Business Suite</li>
+            <li>Google Analytics</li>
+            <li>TikTok analytics</li>
+            <li>Shopify</li>
+            <li>WordPress</li>
+            <li>Adobe Creative Suite</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="about-h">About</h2>
+      </div>
+      <div class="about">
+        <div class="cols">
+          <div><p class="label">Suhaila Khan</p></div>
+          <div class="bio">
+            <p>I'm a marketer based in Singapore. I studied digital marketing at Coventry University, and I've worked across fast-fashion retail and higher education.</p>
+            <p>I like owning a campaign from the first idea to the report at the end: the plan, the assets, the launch and the numbers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <p class="label">Contact</p>
+    <h2>Have a role or a campaign in mind? <em>Email me.</em></h2>
+    <div class="email-row">
+      <a class="email" id="email" href="mailto:suhailakhan39@gmail.com">suhailakhan39@gmail.com</a>
+      <button class="copy" id="copy-email" type="button">Copy email</button>
+    </div>
+    <div class="foot">
+      <span>© 2026 Suhaila Khan</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Enlarged image">
+  <div class="lb-bar">
+    <button class="lb-btn" id="lb-prev" type="button">Previous</button>
+    <button class="lb-btn" id="lb-next" type="button">Next</button>
+    <button class="lb-btn" id="lb-close" type="button">Close</button>
+  </div>
+  <div class="lb-stage"><img id="lb-img" src="" alt=""></div>
+  <p class="lb-cap" id="lb-cap"></p>
+</dialog>
+
+<script>
+(function () {
+  var shots = Array.prototype.slice.call(document.querySelectorAll('.shot'));
+  var dlg = document.getElementById('lightbox');
+  var img = document.getElementById('lb-img');
+  var cap = document.getElementById('lb-cap');
+  var current = 0;
+
+  function show(n) {
+    current = (n + shots.length) % shots.length;
+    var source = shots[current].querySelector('img');
+    img.src = source.getAttribute('src');
+    img.alt = source.alt;
+    cap.textContent = source.alt;
+  }
+
+  if (dlg && typeof dlg.showModal === 'function') {
+    shots.forEach(function (button, n) {
+      button.setAttribute('aria-label', 'Enlarge: ' + button.querySelector('img').alt);
+      button.addEventListener('click', function () { show(n); dlg.showModal(); });
+    });
+    document.getElementById('lb-close').addEventListener('click', function () { dlg.close(); });
+    document.getElementById('lb-prev').addEventListener('click', function () { show(current - 1); });
+    document.getElementById('lb-next').addEventListener('click', function () { show(current + 1); });
+    dlg.addEventListener('click', function (event) {
+      if (event.target === dlg || event.target.classList.contains('lb-stage')) { dlg.close(); }
+    });
+    dlg.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft') { show(current - 1); }
+      if (event.key === 'ArrowRight') { show(current + 1); }
+    });
+  } else {
+    shots.forEach(function (button) { button.style.cursor = 'default'; });
+  }
+
+  var copy = document.getElementById('copy-email');
+  var email = document.getElementById('email');
+  copy.addEventListener('click', function () {
+    var address = email.textContent;
+    function done() {
+      copy.textContent = 'Copied';
+      setTimeout(function () { copy.textContent = 'Copy email'; }, 2000);
+    }
+    function selectIt() {
+      var range = document.createRange();
+      range.selectNodeContents(email);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      copy.textContent = 'Selected, now copy';
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(address).then(done, selectIt);
+    } else {
+      selectIt();
+    }
+  });
+})();
+</script>
+</body>
+</html>
